@@ -1,5 +1,6 @@
 ## 📝 프로그래머스 Lv1 
-- PB_42576 완주하지 못한 선수 [O]  
+
+- PB_42576 완주하지 못한 선수   
 def solution(participant, completion):
     answer = ''
     # 1. 두 리스트를 sorting 한다
@@ -13,14 +14,14 @@ def solution(participant, completion):
     return participant[len(participant) - 1]
 print(solution(["leo", "kiki", "eden"], ["eden", "kiki"]))
 
-- PB_12947 하샤드 수 [O]  
+- PB_12947 하샤드 수   
 def solution(x):
     return True if x % sum([int(char) for char in str(x)]) == 0 else False
 
-- PB_12954 x만큼 간격이 있는 n개의 숫자 [O]  
+- PB_12954 x만큼 간격이 있는 n개의 숫자  
 def solution(x, n):
     return[x*i for i in range(1,n+1)]
 
-- PB_12944 평균 구하기 [O]  
+- PB_12944 평균 구하기 
 def solution(arr):
     return sum(arr)/len(arr)
