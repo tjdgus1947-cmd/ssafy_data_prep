@@ -1,8 +1,8 @@
-- PB_1000 A+B
+# PB_1000 A+B
 A, B = map(int, input().split())
 print(A+B)
   
-- PB_1002 터렛  
+# PB_1002 터렛  
 N = int(input())
 
 for _ in range(N):
