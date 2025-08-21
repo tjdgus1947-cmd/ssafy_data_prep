@@ -26,6 +26,4 @@ for _ in range(N):
     elif (d2==rp2) or (d2==rm2):
       print(1)
     else : print(2)
-     
-
-- PB_1004 어린 왕자
+    
